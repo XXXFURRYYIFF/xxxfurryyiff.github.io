@@ -978,15 +978,17 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 140px;
+    width: 191px;
 }
 
 .post-footer .share a {
-    font-size: 1.8rem;
+
+    font-size: 3.8rem;
     display: inline-block;
-    margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
+    margin: 1rem 2.1rem 1.6rem 0;
+    color: #0BBDE4;
     text-decoration: none;
+
 }
 
 .post-footer .share a:hover {
