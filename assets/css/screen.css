@@ -770,13 +770,21 @@ body:not(.post-template) .post-title {
 }
 
 .post-excerpt p {
-    margin: 0;
-    font-size: 0.9em;
-    line-height: 1.7em;
+    font-size: 1em;
+    line-height: 1.5em;
+    display: block;
 }
 
 .read-more {
     text-decoration: none;
+    font-size: x-large;
+    background: #22072e;
+    width: 100%;
+    display: block;
+    padding: 7px 0px 5px;
+    text-align: center;
+    font-family: Press Start;
+    color: #FFF;
 }
 
 .post-meta {
