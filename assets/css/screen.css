@@ -787,6 +787,10 @@ body:not(.post-template) .post-title {
     color: #FFF;
 }
 
+.read-more:hover {
+    color: #f12765;
+}
+
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
@@ -918,6 +922,7 @@ body:not(.post-template) .post-title {
 
 .full-img {
     max-width: 100%;
+    border-radius: 12px;
 }
 
 /* Break out larger images to be wider than the main text column
