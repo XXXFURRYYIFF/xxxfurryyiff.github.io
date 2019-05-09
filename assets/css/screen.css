@@ -979,17 +979,16 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 191px;
+    width: 210px;
 }
 
 .post-footer .share a {
-
     font-size: 3.8rem;
     display: inline-block;
-    margin: 1rem 2.1rem 1.6rem 0;
+    margin: 2rem 3rem;
     color: #0BBDE4;
     text-decoration: none;
-
+    float: right;
 }
 
 .post-footer .share a:hover {
