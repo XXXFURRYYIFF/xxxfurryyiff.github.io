@@ -763,6 +763,8 @@ body:not(.post-template) .post-title {
 
 .post-title a {
     text-decoration: none;
+    color: #22072e;
+    line-height: 1.5em;
 }
 
 .post-excerpt p {
