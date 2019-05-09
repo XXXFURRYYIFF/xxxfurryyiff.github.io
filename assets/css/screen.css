@@ -208,15 +208,14 @@ body {
     background: #D6EDFF;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
-    line-height: 1.15em;
+    line-height: 0.5em;
     margin: 0 0 0.4em 0;
-    font-family: Bree Serif;
+    font-family: Press Start;
 }
 
 h1 {
@@ -759,7 +758,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 2.5rem;
 }
 
 .post-title a {
@@ -903,6 +902,10 @@ body:not(.post-template) .post-title {
     height: auto;
     margin: 0 auto;
     padding: 0.6em 0;
+}
+
+.full-img {
+    max-width: 100%;
 }
 
 /* Break out larger images to be wider than the main text column
