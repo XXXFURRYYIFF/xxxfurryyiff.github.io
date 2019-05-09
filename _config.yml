@@ -1,16 +1,16 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: XXX FURRY
+description: Bebam leite, é gostoso e faz bem
+meta_description: "Um blog de comics de temática furry adulta."
 
 markdown: kramdown
 highlighter: pygments
 logo: false
-paginate: 15
+paginate: 5
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'xxxfurryyiff.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'bhttps://xxxfurryyiff.github.io/'
+author:         'TOI 5'
