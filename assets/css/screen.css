@@ -772,7 +772,7 @@ body:not(.post-template) .post-title {
 .post-excerpt p {
     font-size: 1em;
     line-height: 1.5em;
-    display: block;
+    display: block !important;
 }
 
 .read-more {
