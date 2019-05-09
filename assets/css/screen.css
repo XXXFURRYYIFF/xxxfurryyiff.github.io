@@ -115,6 +115,13 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: normal;
+  src:url(https://fonts.gstatic.com/s/breeserif/v8/4UaHrEJCrhhnVA3DgluA96rp5w.woff2) format('woff2');
+}
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "casper-icons", "Open Sans", sans-serif;
