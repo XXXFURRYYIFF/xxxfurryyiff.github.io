@@ -1595,8 +1595,16 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
-    .post-template .post-header {
+    .post-template {
         margin-bottom: 2rem;
+    }
+
+    .post-header {
+        padding: 2rem 2rem 0;
+    }
+
+    .post-content {
+        padding: 0 2rem;
     }
 
     .post-template .post-date {
