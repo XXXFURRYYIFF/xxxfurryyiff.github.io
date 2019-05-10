@@ -734,13 +734,12 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 800px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border: #22072E 1.5px solid;
     word-break: break-word;
     hyphens: auto;
-    padding: 1rem;
     border-radius: 12px;
 }
 
@@ -1491,21 +1490,6 @@ body:not(.post-template) .post-title {
         padding: 0;
     }
 
-}
-
-   .post-header {
-        padding: 2rem 2rem 0;
-    }
-
-    .post-content {
-        padding: 0 2rem;
-    }
-
-    .post-footer {
-    position: relative;
-    margin: 10rem 0 0 0;
-    padding: 6rem 2rem 2rem 2rem;
-    border-top: #2f0442 10px solid;
 }
 
 /* ==========================================================================
