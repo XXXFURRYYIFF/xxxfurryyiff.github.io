@@ -1493,6 +1493,20 @@ body:not(.post-template) .post-title {
 
 }
 
+   .post-header {
+        padding: 2rem 2rem 0;
+    }
+
+    .post-content {
+        padding: 0 2rem;
+    }
+
+    .post-footer {
+    position: relative;
+    margin: 10rem 0 0 0;
+    padding: 6rem 2rem 2rem 2rem;
+    border-top: #2f0442 10px solid;
+}
 
 /* ==========================================================================
    11. Media Queries - Smaller than 500px
@@ -1597,14 +1611,6 @@ body:not(.post-template) .post-title {
 
     .post-template {
         margin-bottom: 2rem;
-    }
-
-    .post-header {
-        padding: 2rem 2rem 0;
-    }
-
-    .post-content {
-        padding: 0 2rem;
     }
 
     .post-template .post-date {
