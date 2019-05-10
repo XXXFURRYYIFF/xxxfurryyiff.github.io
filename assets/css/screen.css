@@ -741,6 +741,7 @@ margin on the iframe, cause it breaks stuff. */
     word-break: break-word;
     hyphens: auto;
     border-radius: 12px;
+    padding: 2rem;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
