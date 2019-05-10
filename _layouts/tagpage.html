@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
+<h3>Tag: {{ page.tag }}</h3>
 <div class="post">
-<h1>Tag: {{ page.tag }}</h1>
 <div>
 {% for post in site.tags[page.tag] %}
   <li>
