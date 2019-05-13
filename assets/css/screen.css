@@ -478,6 +478,22 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: middle;
 }
 
+navbox {
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+navbox a {
+    margin: 4.55%;
+    position: relative;
+    text-align: center;
+}
+
+navbox img {
+    position: relative;
+    width: 23.5%;
+}
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -695,23 +711,6 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .main-nav.overlay .subscribe-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
-}
-
-navbox {
-    text-align: center;
-    margin: auto;
-    position: relative;
-}
-
-navbox a {
-    margin: 4.55%;
-    position: relative;
-    text-align: center;
-}
-
-navbox img {
-    position: relative;
-    width: 23.5%;
 }
 
 /* Add subtle load-in animation for content on the home page */
