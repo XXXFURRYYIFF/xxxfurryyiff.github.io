@@ -1334,20 +1334,19 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin: 8rem 0 0 0;
-    padding: 0.5rem 15px;
-    border-top: #EBF2F6 1px solid;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.75em;
-    color: #BBC7CC;
+   position: relative;
+   margin: 6rem 0 0 0;
+   padding: 0.5rem 14px;
+   border-top: #64566b 2px solid;
+   font-size: 1.2rem;
+   color: #22072e;
+   background: #b88dcb3b;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #7e4c94;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 15px;
 }
 
 .site-footer a:hover {
