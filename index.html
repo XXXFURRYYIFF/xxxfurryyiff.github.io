@@ -21,6 +21,19 @@ about: 'about.html'
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
+<navbox>
+<a href="#">
+    <img src="\assets\images\GALERIA.png">
+    </a>
+
+<a href="#">
+    <img src="\assets\images\CONTOS.png">
+    </a>
+
+<a href="#">
+    <img src="\assets\images\BB e FL.png">
+    </a>
+</navbox>
 
 <main id="content" class="content" role="main">
 
@@ -43,12 +56,12 @@ about: 'about.html'
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:'%d-%m-%Y' }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
