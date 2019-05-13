@@ -54,6 +54,7 @@ about: 'about.html'
         <footer class="post-meta">
             {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                <div>
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %}
@@ -61,7 +62,7 @@ about: 'about.html'
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:'%d-%m-%Y' }}">
                 {{ post.date | date_to_string }}
-            </time>
+            </time></div>
         </footer>
     </article>
 
