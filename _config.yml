@@ -10,7 +10,7 @@ baseurl: https://xxxfurryyiff.github.io/
 domain_name: 'xxxfurryyiff.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
-disqus_shortname: xxx-furry
+disqus_shortname: 'xxx-furry'
 
 # Details for the RSS feed generator
 url:            'https://xxxfurryyiff.github.io/'
