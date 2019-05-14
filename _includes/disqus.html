@@ -1,14 +1,19 @@
-{% raw %}{% if page.comments != false %}
+{% if page.comments %}
 <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname  = '{{site.disqus_shortname}}';
-  var disqus_identifier = '{{page.id}}';
+<script>
+    var disqus_config = function () {
+        this.page.url = "{{post.baseurl}}";
+        this.page.identifier = "{{page.id}}"
+        this.language = "pt";
+    };
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
 
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
+        s.src = 'https://xxx-furry.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}{% endraw %}
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
