@@ -84,7 +84,9 @@ post_class: post-template
             {% include share.html %}
 
             <!-- Disqus comments -->
-            {% include disqus.html %}
+            {% if site.disqus_shortname %}
+              {% include disqus_comments.html %}
+            {% endif %}
 
         </footer>
 
