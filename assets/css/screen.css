@@ -954,6 +954,11 @@ body:not(.post-template) .post-title {
     text-align: justify;
 }
 
+.post-footer span {
+    display: block;
+    margin-bottom: 15px;
+}
+
 /* list of author links - location / url */
 .author-meta {
     padding: 0;
